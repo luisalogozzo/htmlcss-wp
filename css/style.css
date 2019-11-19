@@ -170,8 +170,10 @@ a {
 
 .col-center h2 {
   color: #504641;
-  text-shadow: 2px 2px 1px #665e5e;
+  text-shadow: 2px 1px 1px rgb(203, 203, 203);
   margin-bottom: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .col-right {
