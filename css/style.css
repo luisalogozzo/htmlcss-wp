@@ -186,15 +186,17 @@ a {
   background-color: white;
   border-radius: 5px;
   padding: 20px;
+  margin-bottom: 30px;
 }
 
-.colright-top {
-
+.colright-prop h3 {
+ color: #504641;
+ margin-bottom: 20px;
 }
 
-.colright-center {
+/* .colright-center {
   margin: 30px 0 30px;
-}
+} */
 
 .colright-bottom {
 
