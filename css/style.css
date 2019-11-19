@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(http://www.colli.it/wp-content/uploads/2016/05/colli_legni_grigio.jpg);
+  background-image: url(../img/natural-pattern.png);
   font-family: 'Raleway', sans-serif;
 }
 
@@ -15,14 +15,14 @@ body {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
   }
 
 
 /* inizio header */
 .header-top {
+  margin-top: 24px;
   position: relative;
-  /* width: 100%; */
   height: 300px;
   background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
   background-position: top;
@@ -40,27 +40,15 @@ a {
   font-weight: normal;
 }
 
-.logo-icon {
-  font-size: 30px;
-  color: white;
-  line-height: 20px;
-}
-
-.site-title {
-  display: inline-block;
-  font-size: 50px;
-  color: white;
-  padding: 10px;
-  font-weight: normal;
-
-  border: 2px solid white;
+.logo-title img {
+height: 150px;
 }
 
 .site-description {
   color: white;
-  padding-top: 20px;
   font-size: 20px;
 }
+
 /* nav */
 .header-bottom {
   width: 100%;
@@ -73,15 +61,25 @@ a {
   vertical-align: middle;
 }
 .navigation ul li {
+  color: #544F4D;
   display: inline-block;
   list-style: none;
   letter-spacing: 0.6px;
-  /* padding-left: 10px;
-  padding-right: 10px; */
+  text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 0px;
   padding: 0px 12px;
   border-right: 1px solid rgba(0, 0, 0, .4);
-  border-left: 1px solid rgba(255, 255, 255, .1);
-  /* border-left: 1px solid rgba(255, 255, 255, .1); */
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.navigation ul li:first-child {
+  border-left: none;
+}
+
+.navigation ul li:last-child {
+  border-right: none;
+}
+
+.navigation ul li:hover {
+  background-color: #2f2a27;
 }
 
 .navigation ul li a {
@@ -159,13 +157,13 @@ a {
 /* colonna centrale */
 .col-center {
   float: left;
-  width: 40%;
+  width: 50%;
   background-color: white;
   display: inline-block;
   border-radius: 5px;
   text-align: left;
   padding: 20px;
-  margin: 0 10% 0;
+  margin: 0 5% 0;
 }
 
 .col-center h2 {
@@ -223,7 +221,6 @@ footer {
   width: 33.3%;
   text-align: center;
   font-size: 30px;
-
 }
 
 .col-footer a {
