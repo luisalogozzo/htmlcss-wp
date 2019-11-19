@@ -6,7 +6,7 @@
 
 body {
   background-image: url(http://www.colli.it/wp-content/uploads/2016/05/colli_legni_grigio.jpg);
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .page {
@@ -16,8 +16,8 @@ body {
 
 header {
   /* width: 1000px; */
-  height: 200px;
-  margin: 24px auto 24px
+  /* height: 200px; */
+  /* margin: 24px auto 24px */
 }
 
 a {
@@ -27,7 +27,7 @@ a {
 .header-top {
   position: relative;
   /* width: 100%; */
-  height: 170px;
+  height: 300px;
   background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
   background-position: top;
   background-size: cover;
@@ -41,12 +41,15 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 .site-title {
   display: inline-block;
   font-size: 50px;
   color: white;
+  font-weight: normal;
 }
 
 .site-description {
@@ -56,10 +59,16 @@ a {
 
 .header-bottom {
   width: 100%;
-  height: 30px;
+  height: 50px;
   background-color: #504641;
 }
 
+.container {
+  /* width: 1000px; */
+  margin-top: 24px;
+  text-align: center;
+
+}
 
 .container::after {
   content: '';
@@ -67,11 +76,6 @@ a {
   clear: both;
 }
 
-.container {
-  /* width: 1000px; */
-  margin: 24px auto 24px;
-  text-align: center;
-}
 
 .sides-col {
   width: 200px;
@@ -83,6 +87,7 @@ a {
 .col-left {
   position: relative;
   float: left;
+  width: 20%;
   background-color: white;
   padding: 20px;
 }
@@ -111,16 +116,21 @@ a {
 
 
 .col-center {
-  width: 400px;
+  float: left;
+  width: 40%;
+  /* width: 400px; */
   background-color: white;
   display: inline-block;
   border-radius: 5px;
   text-align: left;
   padding: 20px;
+  margin: 0 10% 0;
 }
 
 .col-right {
-  float: right;
+  float: left;
+  width: 20%;
+  /* float: right; */
 }
 
 .colright-prop {
